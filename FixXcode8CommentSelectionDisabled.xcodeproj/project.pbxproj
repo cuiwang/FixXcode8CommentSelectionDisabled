@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30BBEA601FC719000004C6EA /* FixXcode8CommentSelectionDisabled.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BBEA5F1FC719000004C6EA /* FixXcode8CommentSelectionDisabled.m */; };
+		30BBEA691FC71A3E0004C6EA /* NSString+JKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BBEA681FC71A3E0004C6EA /* NSString+JKAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30BBEA591FC719000004C6EA /* FixXcode8CommentSelectionDisabled.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FixXcode8CommentSelectionDisabled.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		30BBEA5D1FC719000004C6EA /* FixXcode8CommentSelectionDisabled.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = FixXcode8CommentSelectionDisabled.xcscheme; path = FixXcode8CommentSelectionDisabled.xcodeproj/xcshareddata/xcschemes/FixXcode8CommentSelectionDisabled.xcscheme; sourceTree = SOURCE_ROOT; };
+		30BBEA5E1FC719000004C6EA /* FixXcode8CommentSelectionDisabled.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FixXcode8CommentSelectionDisabled.h; sourceTree = "<group>"; };
+		30BBEA5F1FC719000004C6EA /* FixXcode8CommentSelectionDisabled.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FixXcode8CommentSelectionDisabled.m; sourceTree = "<group>"; };
+		30BBEA611FC719000004C6EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30BBEA671FC71A3E0004C6EA /* NSString+JKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JKAdditions.h"; sourceTree = "<group>"; };
+		30BBEA681FC71A3E0004C6EA /* NSString+JKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		30BBEA511FC719000004C6EA = {
+			isa = PBXGroup;
+			children = (
+				30BBEA5B1FC719000004C6EA /* FixXcode8CommentSelectionDisabled */,
+				30BBEA5A1FC719000004C6EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30BBEA5A1FC719000004C6EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30BBEA591FC719000004C6EA /* FixXcode8CommentSelectionDisabled.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30BBEA5B1FC719000004C6EA /* FixXcode8CommentSelectionDisabled */ = {
+			isa = PBXGroup;
+			children = (
+				30BBEA671FC71A3E0004C6EA /* NSString+JKAdditions.h */,
+				30BBEA681FC71A3E0004C6EA /* NSString+JKAdditions.m */,
+				30BBEA5E1FC719000004C6EA /* FixXcode8CommentSelectionDisabled.h */,
+				30BBEA5F1FC719000004C6EA /* FixXcode8CommentSelectionDisabled.m */,
+				30BBEA611FC719000004C6EA /* Info.plist */,
+				30BBEA5C1FC719000004C6EA /* Supporting Files */,
+			);
+			path = FixXcode8CommentSelectionDisabled;
+			sourceTree = "<group>";
+		};
+		30BBEA5C1FC719000004C6EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30BBEA5D1FC719000004C6EA /* FixXcode8CommentSelectionDisabled.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30BBEA581FC719000004C6EA /* FixXcode8CommentSelectionDisabled */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30BBEA641FC719000004C6EA /* Build configuration list for PBXNativeTarget "FixXcode8CommentSelectionDisabled" */;
+			buildPhases = (
+				30BBEA561FC719000004C6EA /* Sources */,
+				30BBEA571FC719000004C6EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FixXcode8CommentSelectionDisabled;
+			productName = FixXcode8CommentSelectionDisabled;
+			productReference = 30BBEA591FC719000004C6EA /* FixXcode8CommentSelectionDisabled.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30BBEA521FC719000004C6EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "崔旺";
+				TargetAttributes = {
+					30BBEA581FC719000004C6EA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = P67TMTEE5F;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 30BBEA551FC719000004C6EA /* Build configuration list for PBXProject "FixXcode8CommentSelectionDisabled" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 30BBEA511FC719000004C6EA;
+			productRefGroup = 30BBEA5A1FC719000004C6EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30BBEA581FC719000004C6EA /* FixXcode8CommentSelectionDisabled */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30BBEA571FC719000004C6EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30BBEA561FC719000004C6EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30BBEA691FC71A3E0004C6EA /* NSString+JKAdditions.m in Sources */,
+				30BBEA601FC719000004C6EA /* FixXcode8CommentSelectionDisabled.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		30BBEA621FC719000004C6EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		30BBEA631FC719000004C6EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		30BBEA651FC719000004C6EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DEVELOPMENT_TEAM = P67TMTEE5F;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = FixXcode8CommentSelectionDisabled/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mozitu.app.FixXcode8CommentSelectionDisabled;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		30BBEA661FC719000004C6EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DEVELOPMENT_TEAM = P67TMTEE5F;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = FixXcode8CommentSelectionDisabled/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mozitu.app.FixXcode8CommentSelectionDisabled;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30BBEA551FC719000004C6EA /* Build configuration list for PBXProject "FixXcode8CommentSelectionDisabled" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30BBEA621FC719000004C6EA /* Debug */,
+				30BBEA631FC719000004C6EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30BBEA641FC719000004C6EA /* Build configuration list for PBXNativeTarget "FixXcode8CommentSelectionDisabled" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30BBEA651FC719000004C6EA /* Debug */,
+				30BBEA661FC719000004C6EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30BBEA521FC719000004C6EA /* Project object */;
+}
