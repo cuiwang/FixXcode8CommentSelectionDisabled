@@ -10,6 +10,7 @@
 1. 下载源码后直接运行
 2. 没有报错的话重启xcode8
 3. 重启后插件出现在Edit菜单下面,如图.
+4. 无效的话,试试关闭 SIP 保护,https://jingyan.baidu.com/article/9c69d48ff88b3813c9024e9d.html)
 ----
 ![](https://ws1.sinaimg.cn/large/006tNc79gy1flsfj9ofhrj30890i3mzn.jpg)
 ----
